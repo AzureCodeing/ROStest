@@ -32,7 +32,7 @@
 *  POSSIBILITY OF SUCH DAMAGE.
 *********************************************************************/
 
-#include "mpu9250_device/i2c.h"
+#include "mpu9250_device/i2c2.h"
 
 i2c_dev::i2c_dev(std::string dev_name, int address):_address(address)
 {
